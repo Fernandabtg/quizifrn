@@ -1,0 +1,413 @@
+
+html {
+  height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #2F2F2F;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	color: #5B5B5B;
+	
+}
+
+.title {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #222222;
+    border-bottom: solid 1px #dbdbdb;
+  	text-align: center;
+    padding-top:-8%;
+    margin-top:-3%;
+
+}
+
+.title1 {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+	color: #222222;
+	text-align: center;
+    top:2%;
+}
+
+.title .byline {
+	position: relative;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+    font-size: 0.90em;
+	color: #8E8E8E;
+ 
+    margin-bottom:-2%;
+}
+#del {
+    background-color:#ededed;
+  	border-radius:8px;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#4d4d4d;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	font-style:italic;
+	padding:5px 34px;
+	margin: 5px;
+	text-decoration:none;  
+}
+#centro {
+	background: #FFF;
+	width: 100%;
+}
+
+.title h2 {
+  font-size: 2.4em;
+  color: #696969;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+#centro {
+	overflow: hidden;
+	width: 100%;
+	margin: 0px auto;
+  padding: 5% 0% 3% 0%;
+}
+#cima
+{
+	width: 100%;
+	margin: 0 auto;
+	 position: relative;
+	 height: 30%; 
+}
+
+#logo {
+	display: inline-block flex;
+	 padding: 0.8em 1.3em 0.6em 0.50em;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	color: #FFF;
+	margin-left: 15%;
+
+}
+#botoes {
+	padding-bottom: 3%; 
+	display: flex; 
+	width: 100%;
+	align-items: center; 
+  justify-content: center; 
+  margin-top: 3%;
+}
+
+.Button {
+	background-color:#ededed;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#4d4d4d;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	font-style:italic;
+	padding:5px 34px;
+	margin: 5px;
+	text-decoration:none;
+  text-shadow:-6px 0px 2px #ffffff;
+	float: left;
+	left: 50%;
+	right: 50%;
+
+
+}
+.Button:hover {
+	background-color:#dfdfdf;
+}
+
+#form{
+
+	text-align: left;
+	border-radius:8px;
+	border:2px solid #dcdcdc;
+	left: 50%;
+	right: 50%;
+	width: 23%;
+	margin-left: 37%;
+margin-right: 0%;
+padding-left: 1%;
+padding-right: 1%;
+margin-top: 3%;
+padding-top: 3%;
+padding-bottom: 2%;
+
+}
+
+form {
+	position: relative;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	font-weight: 70%;
+	font-size: 0.90em;
+	color: #8E8E8E;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #222222;
+	text-align: left;
+	padding-left: 3%;
+	font-weight: 76%;
+
+}
+input {
+	
+	padding-right: 2%;
+}
+
+#red {
+	color: #8B0000;
+}
+
+a{
+	
+	text-decoration: none;
+	 color: #363636;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+#enviar {
+	-moz-box-shadow:inset -5px -13px 8px -10px #ffffff;
+	-webkit-box-shadow:inset -5px -13px 8px -10px #ffffff;
+	box-shadow:inset -5px -13px 8px -10px #ffffff;
+	background-color:#ededed;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:2px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#4d4d4d;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	font-style:italic;
+	padding: 4% 9% 4% 9%;
+	text-decoration:none;
+	text-shadow:-6px 0px 2px #ffffff;
+	float: left;
+	left: 50%;
+	right: 50%;
+	margin-right: 2%;
+	margin-bottom: 5%;
+	margin-top: 2%;
+}
+#botoe {
+margin-left: 20%;
+margin-right: 20%;
+padding-left: 25%;
+padding-right: 20%;
+margin-top: 2%;
+}
+
+#formc{
+
+	text-align: left;
+	border-radius:8px;
+	border:2px solid #dcdcdc;
+	left: 50%;
+	right: 50%;
+	width: 20%;
+	margin-left: 37%;
+margin-right: 30%;
+margin-top: 1%;
+padding-left: 3%;
+padding-right: 2%;
+padding-top: 3%;
+padding-bottom: 2%;
+}
+
+div.fix ul {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 4%;
+	top: 5%;
+
+}
+div.fix ul {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	right: 8%;
+	top: 50%;
+}
+
+div.fix li {
+	list-style-type: none;
+	margin: 0 10px 0 0;
+	padding: 0;
+}
+
+div.fix ul li, div.fix ul li a, div.fix ul li, div.fix ul li a span {
+	float: left;
+	display: block;
+
+}
+
+
+#header, #main{
+	width: 60%;
+	margin: 0 auto;
+}
+
+.clear:after {
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+
+
+#main ul li {
+	margin-right: 20px;
+}
+
+#main ul li a {
+	background: url(images/nav-but-l.gif) left top no-repeat;
+}
+
+#main ul li a span {
+	font-family: times new roman;
+	font-size: 18px;
+
+	background: url(images/nav-but-r.gif) right top no-repeat;
+	color: #989898;
+	padding: 2px 9px 15px 9px;
+	
+
+}
+
+#main ul li a:hover span {
+	color: #FFFFF0;
+
+}
+
+#menu{
+
+
+	margin-right: 20%;
+	margin-left: 28%;
+}
+
+.menu{
+list-style:none; 
+float:left;
+padding: 2% 5% 18% 3%;
+	
+}
+.menu li{
+position:relative; 
+float:left; 
+border:2px solid #dcdcdc; 
+
+}
+
+.menu li a{
+	color:#333;
+	 text-decoration:none; 
+	 padding:5px 10px 5px 20px;  
+	 display:block;
+	 border-radius:8px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#4d4d4d;
+	font-size:150%;
+	font-weight:bold;
+	font-style:italic;
+}
+ 
+.menu li a:hover{
+background: #dfdfdf;
+		color: black;
+}
+.menu li  ul{
+position:absolute; 
+background-color:#fff; 
+display:none;
+align-items: center;
+}
+.menu li:hover ul, .menu li.over ul{
+	display:block;
+	width: 100px;
+	height: 70px;
+}
+
+.menu li ul li{
+border:1px solid #dcdcdc; 
+display:block; 
+}
+
+#text {
+    text-transform:none;
+	word-wrap: break-word;
+	text-decoration:none; 
+	 font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+	font-size: 15pt;
+	color: #5B5B5B;
+	overflow: hidden;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-weight:normal;
+	letter-spacing:normal;
+}
+
+table.lista {
+    border-collapse: collapse; 
+    background: "#666633";
+    margin:auto;
+}
+table.lista td, th {
+ border: 1px solid black;
+ width: 500px;
+height: 30px;
+text-align: center;
+  
+ }
+ 
+table.lista tr {
+    border: 1px solid black;
+ }
+
+#divmedia{
+
+	text-align: left;
+	border-radius:8px;
+	border:2px solid #dcdcdc;
+	left: 50%;
+	right: 50%;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 0%;
+	padding-left: 1%;
+	padding-right: 1%;
+	margin-top: 3%;
+	padding-top: 3%;
+	padding-bottom: 2%;
+
+}
+
+p {
+	word-wrap: break-word;
+	text-decoration:none; 
+	 font-family: “Segoe UI”,”Arial”,”Times New Roman”;
+	font-size: 15pt;
+	color: #5B5B5B;
+	overflow: hidden;
+	margin-left: 5%;
+	margin-right: 5%;
+}
